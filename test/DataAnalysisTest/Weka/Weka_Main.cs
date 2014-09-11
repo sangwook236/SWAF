@@ -4,7 +4,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace SMining.DataAnalysisTest.Weka
+namespace SAF.DataAnalysisTest.Weka
 {
     class Weka_Main
     {
