@@ -1,0 +1,6 @@
+[-] General
+	-. Site
+		http://nunit.org/
+
+	-. nunit project file for SAF 
+		${SAF_HOME}/unit/SAF.unit

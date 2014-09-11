@@ -1,2 +1,0 @@
-http://logging.apache.org/log4net/index.html
-http://logging.apache.org/
