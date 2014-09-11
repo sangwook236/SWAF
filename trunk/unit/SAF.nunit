@@ -1,0 +1,10 @@
+﻿<NUnitProject>
+  <Settings activeconfig="Debug" />
+  <Config name="Debug" binpathtype="Auto">
+    <assembly path="..\..\..\bin\Release\SAF.CoreUnitTest.dll" />
+    <assembly path="..\..\..\bin\Release\SAF.UtilUnitTest.dll" />
+    <assembly path="..\bin\Release\SAF.CoreUnitTest.dll" />
+    <assembly path="..\bin\Release\SAF.CoreUnitTest.dll" />
+  </Config>
+  <Config name="Release" binpathtype="Auto" />
+</NUnitProject>

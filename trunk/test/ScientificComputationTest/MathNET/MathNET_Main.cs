@@ -3,7 +3,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 
-namespace SMining.ScientificComputationTest.MathNET
+namespace SAF.ScientificComputationTest.MathNET
 {
     class MathNET_Main
     {

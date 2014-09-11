@@ -2,12 +2,13 @@
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
+using System.Threading.Tasks;
 
-namespace SAF.DataAnalysisTest.Pentaho
+namespace SAF.MachineLearningTest
 {
-    class Pentaho_Main
+    class Program
     {
-        public static void run(string[] args)
+        static void Main(string[] args)
         {
             throw new NotImplementedException();
         }

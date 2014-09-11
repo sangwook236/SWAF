@@ -5,7 +5,7 @@ using System.Text;
 
 using Accord;
 
-namespace SMining.ScientificComputationTest.AccordNET
+namespace SAF.ScientificComputationTest.AccordNET
 {
     class AccordNET_Main
     {
