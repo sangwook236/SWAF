@@ -13,17 +13,17 @@ namespace SAF.CoreUnitTest
     class CoreClassTest
     {
         [SetUp]
-        protected void SetUp()
+        public void setUp()
         {
         }
 
         [TearDown]
-        public void Cleanup()
+        public void tearDown()
         {
         }
 
         [Test]
-        public void Test1()
+        public void testCoreClassFunction()
         {
         }
     }
