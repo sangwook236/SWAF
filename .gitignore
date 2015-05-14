@@ -1,0 +1,17 @@
+*.dll
+*.so
+*.lib
+*.a
+*.obj
+*.o
+*~
+*.layout
+Debug
+Release
+bin/
+build/
+doc/html/
+doc/rtf/
+lib/
+3rd/bin/
+3rd/lib/
