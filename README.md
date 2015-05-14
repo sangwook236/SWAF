@@ -1,5 +1,4 @@
 # sangwook-analysis-framework
-Automatically exported from code.google.com/p/sangwook-analysis-framework
 
 Sang-Wook Lee's Analysis Framework (SAF) <br/>
 The objective of this analysis framework is to support:
