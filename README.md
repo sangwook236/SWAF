@@ -1,5 +1,4 @@
-# sangwook-analysis-framework
-Sang-Wook Lee's Analysis Framework (SAF)
+# Sang-Wook Lee's Analysis Framework (SAF)
 
 The objective of this analysis framework is to support:
 * Machine Learning
