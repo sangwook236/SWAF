@@ -1,4 +1,4 @@
-# Sang-Wook's Analysis Framework (SAF)
+# Sang-Wook's Analysis Framework (SWAF)
 
 The objective of this analysis framework is to support:
 * Machine Learning
@@ -7,4 +7,4 @@ The objective of this analysis framework is to support:
 * Statistical Inference
 * Data Analysis
 
-SAF does integrate a lot of algorithms implemented using C#, Java, and C/C++ into a single framework.
+SWAF does integrate a lot of algorithms implemented using C#, Java, and C/C++ into a single framework.
