@@ -3,7 +3,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 
-namespace SAF.ScientificComputationTest.ILNumerics
+namespace SWAF.ScientificComputationTest.ILNumerics
 {
     class ILNumerics_Main
     {

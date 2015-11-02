@@ -2,12 +2,12 @@
 
 <log4net>
 
-  <appender name="SAF.ConsoleAppender" type="log4net.Appender.ConsoleAppender">
+  <appender name="SWAF.ConsoleAppender" type="log4net.Appender.ConsoleAppender">
     <layout type="log4net.Layout.SimpleLayout"/>
   </appender>
 
-  <appender name="SAF.FileAppender1" type="log4net.Appender.RollingFileAppender">
-    <file value="./log/SAF_log1.log"/>
+  <appender name="SWAF.FileAppender1" type="log4net.Appender.RollingFileAppender">
+    <file value="./log/SWAF_log1.log"/>
     <appendToFile value="true"/>
 
     <maximumFileSize value="1MB"/>
@@ -18,8 +18,8 @@
     </layout>
   </appender>
 
-  <appender name="SAF.FileAppender2" type="log4net.Appender.RollingFileAppender">
-    <file value="./log/SAF_log2.log"/>
+  <appender name="SWAF.FileAppender2" type="log4net.Appender.RollingFileAppender">
+    <file value="./log/SWAF_log2.log"/>
     <appendToFile value="true"/>
 
     <maximumFileSize value="1MB"/>
@@ -30,8 +30,8 @@
     </layout>
   </appender>
 
-  <appender name="SAF.FileAppender3" type="log4net.Appender.RollingFileAppender">
-    <file value="./log/SAF_log3.log"/>
+  <appender name="SWAF.FileAppender3" type="log4net.Appender.RollingFileAppender">
+    <file value="./log/SWAF_log3.log"/>
     <appendToFile value="true"/>
 
     <maximumFileSize value="1MB"/>
@@ -42,25 +42,25 @@
     </layout>
   </appender>
 
-  <logger name="SAF_Client.Logger" additivity="true">
+  <logger name="SWAF_Client.Logger" additivity="true">
     <level value="all"/>
-    <appender-ref ref="SAF.FileAppender1"/>
+    <appender-ref ref="SWAF.FileAppender1"/>
   </logger>
 
-  <logger name="SAF_Client2.Logger" additivity="true">
+  <logger name="SWAF_Client2.Logger" additivity="true">
     <level value="all"/>
-    <appender-ref ref="SAF.FileAppender2"/>
+    <appender-ref ref="SWAF.FileAppender2"/>
   </logger>
 
-  <logger name="SAF_Client3.Logger" additivity="true">
+  <logger name="SWAF_Client3.Logger" additivity="true">
     <level value="warn"/>
-    <appender-ref ref="SAF.FileAppender3"/>
+    <appender-ref ref="SWAF.FileAppender3"/>
   </logger>
 
   <root>
     <priority value="warn"/>
-    <appender-ref ref="SAF.ConsoleAppender"/>
-    <!-- <appender-ref ref="SAF.FileAppender1"/> -->
+    <appender-ref ref="SWAF.ConsoleAppender"/>
+    <!-- <appender-ref ref="SWAF.FileAppender1"/> -->
   </root>
 
 </log4net>

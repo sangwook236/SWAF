@@ -4,9 +4,9 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace SAF.CoreUnitTest.Log
+namespace SWAF.CoreUnitTest.Log
 {
-    using SAF.Core.Log;
+    using SWAF.Core.Log;
     using NUnit.Framework;
 
     [TestFixture]
@@ -40,7 +40,7 @@ namespace SAF.CoreUnitTest.Log
             ILog logger = Log4NetLog.getLogger(null);
             Console.WriteLine("{0}", logger.ToString());
             Assert.IsNotNull(logger);
-            Assert.AreEqual(logger.ToString(), "SAF.Core.Log.Log4NetLog");
+            Assert.AreEqual(logger.ToString(), "SWAF.Core.Log.Log4NetLog");
             logger.debug("(#2) it's a debug-level log message.");
             logger.info("(#2) it's a info-level log message.");
             logger.warn("(#2) it's a warn-level log message.");
@@ -49,9 +49,9 @@ namespace SAF.CoreUnitTest.Log
         }
 
         [Test]
-        public void testSAFClient1Logger()
+        public void testSWAFClient1Logger()
         {
-            string loggerName = "SAF_Client.Logger";
+            string loggerName = "SWAF_Client.Logger";
             ILog logger = Log4NetLog.getLogger(loggerName);
             Assert.IsNotNull(logger);
             logger.debug("(#3) it's a debug-level log message.");
@@ -62,9 +62,9 @@ namespace SAF.CoreUnitTest.Log
         }
 
         [Test]
-        public void testSAFClient2Logger()
+        public void testSWAFClient2Logger()
         {
-            string loggerName = "SAF_Client2.Logger";
+            string loggerName = "SWAF_Client2.Logger";
             ILog logger = Log4NetLog.getLogger(loggerName);
             Assert.IsNotNull(logger);
             logger.debug("(#4) it's a debug-level log message.");
@@ -75,9 +75,9 @@ namespace SAF.CoreUnitTest.Log
         }
 
         [Test]
-        public void testSAFClient3Logger()
+        public void testSWAFClient3Logger()
         {
-            string loggerName = "SAF_Client3.Logger";
+            string loggerName = "SWAF_Client3.Logger";
             ILog logger = Log4NetLog.getLogger(loggerName);
             Assert.IsNotNull(logger);
             logger.debug("(#5) it's a debug-level log message.");
@@ -88,12 +88,12 @@ namespace SAF.CoreUnitTest.Log
         }
 
         [Test]
-        public void testSAFClient4Logger()
+        public void testSWAFClient4Logger()
         {
-            string loggerName = "SAF_Client4.Logger";
+            string loggerName = "SWAF_Client4.Logger";
             ILog logger = Log4NetLog.getLogger(loggerName);
             Assert.IsNotNull(logger);
-            Assert.AreEqual(logger.ToString(), "SAF.Core.Log.Log4NetLog");
+            Assert.AreEqual(logger.ToString(), "SWAF.Core.Log.Log4NetLog");
         }
     }
 }

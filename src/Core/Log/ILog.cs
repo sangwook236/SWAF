@@ -4,7 +4,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace SAF.Core.Log
+namespace SWAF.Core.Log
 {
     public interface ILog
     {

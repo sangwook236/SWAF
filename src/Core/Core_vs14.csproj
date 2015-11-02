@@ -49,7 +49,7 @@
   </ItemGroup>
   <ItemGroup />
   <ItemGroup>
-    <Content Include="Log\SAF_log_conf.xml">
+    <Content Include="Log\SWAF_log_conf.xml">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </Content>
   </ItemGroup>

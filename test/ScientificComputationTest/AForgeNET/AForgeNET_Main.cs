@@ -3,7 +3,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 
-namespace SAF.ScientificComputationTest.AForgeNET
+namespace SWAF.ScientificComputationTest.AForgeNET
 {
     class AForgeNET_Main
     {

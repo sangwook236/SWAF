@@ -3,12 +3,12 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 
-namespace SAF.Core.Log
+namespace SWAF.Core.Log
 {
     /**
      * @brief Log4Net library를 이용하는 logger.
      *
-     * Logging을 위한 설정 파일은 현재 실행 파일이 존재하는 directory 하에 log/SAF_log_conf.xml에 존재하며,
+     * Logging을 위한 설정 파일은 현재 실행 파일이 존재하는 directory 하에 log/SWAF_log_conf.xml에 존재하며,
      * 이 파일을 변경하여 각 logger의 logging 출력 형태 및 양식, 그리고 log level 등을 변경할 수 있다.
      *
      * 여기서 log level이란 log message와 관계된 수준을 말하며, 두 가지 목적을 위해 사용할 수 있다. <br>
@@ -35,12 +35,12 @@ namespace SAF.Core.Log
      * Log4NetLog 클래스의 사용 방법. <br>
      * 기본 logger를 이용해 log level이 warn인 상태로 message(여기서는 it's a warn-level log message.를 말함)를 출력한다.
      * @code
-     * SAF.Core.Log.Log4NetLog.getDefaultLogger().Warn("it's a warn-level log message.");
+     * SWAF.Core.Log.Log4NetLog.getDefaultLogger().Warn("it's a warn-level log message.");
      * @endcode
      * 
-     * SAF_Client.Logger라는 이름을 가지는 logger를 이용해 log level이 error인 상태로 message(여기서는 it's an error-level log message.를 말함)를 출력한다.
+     * SWAF_Client.Logger라는 이름을 가지는 logger를 이용해 log level이 error인 상태로 message(여기서는 it's an error-level log message.를 말함)를 출력한다.
      * @code
-     * SAF.Core.Log.Log4NetLog.error("SAF_Client.Logger", "it's an error-level log message.");
+     * SWAF.Core.Log.Log4NetLog.error("SWAF_Client.Logger", "it's an error-level log message.");
      * @endcode
      */
     sealed public class Log4NetLog : ILog
@@ -48,7 +48,7 @@ namespace SAF.Core.Log
         /**
          * @brief Log4NetLog 객체를 설정하기 위한 static constructor.
          *
-         * 실행 파일이 존재하는 directory 하에 log/SAF_log_conf.xml 파일이 존재하는 경우, 해당 파일로부터 설정을 로드한다.
+         * 실행 파일이 존재하는 directory 하에 log/SWAF_log_conf.xml 파일이 존재하는 경우, 해당 파일로부터 설정을 로드한다.
          * 만약 해당 logging 설정 파일을 이용한 logger의 설정이 실패한다면, 기본 설정을 이용한다.
          */
         static Log4NetLog()
@@ -56,7 +56,7 @@ namespace SAF.Core.Log
             bool useBasicConfigurator = false;
             try
             {
-                System.IO.FileInfo configFileInfo = new System.IO.FileInfo(".\\Log\\SAF_log_conf.xml");
+                System.IO.FileInfo configFileInfo = new System.IO.FileInfo(".\\Log\\SWAF_log_conf.xml");
                 if (configFileInfo.Exists)
                     log4net.Config.XmlConfigurator.Configure(configFileInfo);
                 else
@@ -78,7 +78,7 @@ namespace SAF.Core.Log
                 fileAppender.MaximumFileSize = "1MB";
                 fileAppender.MaxSizeRollBackups = 10;
                 fileAppender.LockingModel = new log4net.Appender.FileAppender.MinimalLock();
-                fileAppender.File = ".\\log\\SAF_default_log.log";
+                fileAppender.File = ".\\log\\SWAF_default_log.log";
                 fileAppender.Layout = patternLayout;
                 fileAppender.ActivateOptions();
 

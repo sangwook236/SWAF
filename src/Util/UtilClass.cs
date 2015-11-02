@@ -4,7 +4,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace SAF.Util
+namespace SWAF.Util
 {
     class UtilClass
     {

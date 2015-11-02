@@ -4,9 +4,9 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace SAF.UtilUnitTest
+namespace SWAF.UtilUnitTest
 {
-    using SAF.Util;
+    using SWAF.Util;
     using NUnit.Framework;
 
     [TestFixture]
