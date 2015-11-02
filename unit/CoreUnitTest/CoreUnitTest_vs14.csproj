@@ -7,8 +7,8 @@
     <ProjectGuid>{89555B95-87DE-449C-B1F9-4A30AF103827}</ProjectGuid>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
-    <RootNamespace>SAF.CoreUnitTest</RootNamespace>
-    <AssemblyName>SAF.CoreUnitTest</AssemblyName>
+    <RootNamespace>SWAF.CoreUnitTest</RootNamespace>
+    <AssemblyName>SWAF.CoreUnitTest</AssemblyName>
     <TargetFrameworkVersion>v4.5</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
   </PropertyGroup>
@@ -68,7 +68,7 @@
   <ItemGroup>
     <ProjectReference Include="..\..\src\Core\Core_vs14.csproj">
       <Project>{7503ba4c-f9e3-4993-ae28-c96e4754a49b}</Project>
-      <Name>Core_vc12</Name>
+      <Name>Core_vs14</Name>
     </ProjectReference>
   </ItemGroup>
   <ItemGroup />

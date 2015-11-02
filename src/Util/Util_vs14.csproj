@@ -7,8 +7,8 @@
     <ProjectGuid>{8CE52E92-BFA7-4AF5-91C1-E8E14DB00A28}</ProjectGuid>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
-    <RootNamespace>SAF.Util</RootNamespace>
-    <AssemblyName>SAF.Util</AssemblyName>
+    <RootNamespace>SWAF.Util</RootNamespace>
+    <AssemblyName>SWAF.Util</AssemblyName>
     <TargetFrameworkVersion>v4.5</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
   </PropertyGroup>
