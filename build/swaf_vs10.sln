@@ -1,9 +1,8 @@
-﻿
-Microsoft Visual Studio Solution File, Format Version 11.00
+﻿Microsoft Visual Studio Solution File, Format Version 11.00
 # Visual Studio 2010
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DataAnalysisTest_vc10", "..\test\DataAnalysisTest\DataAnalysisTest_vc10.csproj", "{4AB54729-18F6-433E-9BAD-FE55F6A6C298}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DataAnalysisTest_vs10", "..\test\DataAnalysisTest\DataAnalysisTest_vs10.csproj", "{4AB54729-18F6-433E-9BAD-FE55F6A6C298}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ScientificComputationTest_vc10", "..\test\ScientificComputationTest\ScientificComputationTest_vc10.csproj", "{003DC1D2-B28B-4647-B048-99861889651D}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ScientificComputationTest_vs10", "..\test\ScientificComputationTest\ScientificComputationTest_vs10.csproj", "{003DC1D2-B28B-4647-B048-99861889651D}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
