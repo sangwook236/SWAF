@@ -7,8 +7,8 @@
     <ProjectGuid>{7503BA4C-F9E3-4993-AE28-C96E4754A49B}</ProjectGuid>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
-    <RootNamespace>SAF.Core</RootNamespace>
-    <AssemblyName>SAF.Core</AssemblyName>
+    <RootNamespace>SWAF.Core</RootNamespace>
+    <AssemblyName>SWAF.Core</AssemblyName>
     <TargetFrameworkVersion>v4.5</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
   </PropertyGroup>
@@ -49,7 +49,7 @@
   </ItemGroup>
   <ItemGroup />
   <ItemGroup>
-    <Content Include="Log\SAF_log_conf.xml">
+    <Content Include="Log\SWAF_log_conf.xml">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </Content>
   </ItemGroup>

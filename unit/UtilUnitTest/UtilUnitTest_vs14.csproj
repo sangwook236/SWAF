@@ -7,8 +7,8 @@
     <ProjectGuid>{522959BC-083D-471B-A1D8-1CA33D1B01D2}</ProjectGuid>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
-    <RootNamespace>SAF.UtilUnitTest</RootNamespace>
-    <AssemblyName>SAF.UtilUnitTest</AssemblyName>
+    <RootNamespace>SWAF.UtilUnitTest</RootNamespace>
+    <AssemblyName>SWAF.UtilUnitTest</AssemblyName>
     <TargetFrameworkVersion>v4.5</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
   </PropertyGroup>
@@ -67,11 +67,11 @@
   <ItemGroup>
     <ProjectReference Include="..\..\src\Core\Core_vs14.csproj">
       <Project>{7503ba4c-f9e3-4993-ae28-c96e4754a49b}</Project>
-      <Name>Core_vc12</Name>
+      <Name>Core_vs14</Name>
     </ProjectReference>
     <ProjectReference Include="..\..\src\Util\Util_vs14.csproj">
       <Project>{8ce52e92-bfa7-4af5-91c1-e8e14db00a28}</Project>
-      <Name>Util_vc12</Name>
+      <Name>Util_vs14</Name>
     </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />

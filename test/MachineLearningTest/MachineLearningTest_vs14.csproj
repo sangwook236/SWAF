@@ -7,8 +7,8 @@
     <ProjectGuid>{E54FA255-1247-4ED2-8F87-83DC728203CE}</ProjectGuid>
     <OutputType>Exe</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
-    <RootNamespace>SAF.MachineLearningTest</RootNamespace>
-    <AssemblyName>SAF.MachineLearningTest</AssemblyName>
+    <RootNamespace>SWAF.MachineLearningTest</RootNamespace>
+    <AssemblyName>SWAF.MachineLearningTest</AssemblyName>
     <TargetFrameworkVersion>v4.5</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
   </PropertyGroup>

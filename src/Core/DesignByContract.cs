@@ -4,7 +4,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace SAF.Core
+namespace SWAF.Core
 {
     using System.Runtime.CompilerServices;
 

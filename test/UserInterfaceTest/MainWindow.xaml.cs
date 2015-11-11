@@ -13,7 +13,7 @@ using System.Windows.Media.Imaging;
 using System.Windows.Navigation;
 using System.Windows.Shapes;
 
-namespace SAF.UserInterfaceTest
+namespace SWAF.UserInterfaceTest
 {
     /// <summary>
     /// Interaction logic for MainWindow.xaml

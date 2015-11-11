@@ -3,7 +3,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 
-namespace SAF.DataAnalysisTest.Pentaho
+namespace SWAF.DataAnalysisTest.Pentaho
 {
     class Pentaho_Main
     {
