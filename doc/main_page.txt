@@ -1,0 +1,37 @@
+/**	@mainpage Main Page
+ *
+ *	@section IntroductionSection Introduction
+ *
+ *	The objective of this analysis framework is to support:
+ *		- Statistical Inference, Machine Learning
+ *		- Artificial Intelligence, Data Analysis
+ *		- Pattern Recognition, Computer Vision
+ *
+ *	SWAF does integrate a lot of algorithms implemented using C#, Java, and C/C++ into a single framework.
+ *
+ *	@section RepositorySection Repository
+ *		- <a href="https://github.com/sangwook236/SWAF">SWAF's repository</a>
+ *		- <a href="https://github.com/sangwook236">Sang-Wook's GitHub</a>
+ *
+ *	@section BuildingLibrarySection Building Library
+ *
+ *	@subsection UsingIDESubsection Using IDE
+ *	SWAF supports <a href="https://www.visualstudio.com/">Visual Studio</a>.
+ *		- Change the directory to SWAF.
+ *		- Run IDE.
+ *			- Use Visual Studio in Windows.
+ *		- Open a file.
+ *			- Open build/ *.sln in Visual Studio.
+ *		- Build.
+ *
+ *	@section DocumentSection Document
+ *	Use the SWAF's doxygen configuation file, doc/swaf.doxy.
+ *		- Change the directory to SWAF.
+ *		- Change the directory to doc.
+ *			- cd doc
+ *		- Run <a href="https://www.stack.nl/~dimitri/doxygen/manual/">Doxygen</a> command.
+ *			- doxygen swaf.doxy
+ *		- Open an HTML page or a RTF file.
+ *			- Open doc/html/index.html.
+ *			- Open doc/rtf/refman.rtf.
+ */
