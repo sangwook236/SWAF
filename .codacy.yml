@@ -1,0 +1,4 @@
+exclude_paths:
+    - 3rd/*
+    - bin/*
+    - build/*
