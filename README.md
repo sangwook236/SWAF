@@ -1,5 +1,7 @@
 # Sang-Wook's Analysis Framework (SWAF)
 
+[![Codacy Badge](https://api.codacy.com/project/badge/Grade/b6de04b7ec664c1ca0268c3fd030c313)](https://app.codacy.com/app/sangwook236/SWAF?utm_source=github.com&utm_medium=referral&utm_content=sangwook236/SWAF&utm_campaign=Badge_Grade_Dashboard)
+
 ## Introduction
 
 The objective of this analysis framework is to support:
