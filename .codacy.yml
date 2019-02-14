@@ -1,4 +1,4 @@
 exclude_paths:
-    - 3rd/*
-    - bin/*
-    - build/*
+  - 3rd/*
+  - bin/*
+  - build/*
